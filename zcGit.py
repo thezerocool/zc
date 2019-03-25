@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 
+# updated 11:08 25/03/2019
+
 import requests
 from os import getcwd
 
 def updateGitFiles():
-    files = ['testDownload.txt','volCtrl.py']
+    files = ['testDownload.txt','volCtrl.py','zcGit.py']
     for fileS in files:
         print(fileS)
         url = "https://raw.githubusercontent.com/thezerocool/zc/master/" + fileS
